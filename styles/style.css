@@ -66,6 +66,14 @@ figure {
   margin-bottom: 1.5em;
 }
 
+.content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
+  background-color: var(--accent-color);
+  padding: 0 4px;
+  margin-right: 1px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .content__blockquote {
   width: 75%;
   justify-self: center;

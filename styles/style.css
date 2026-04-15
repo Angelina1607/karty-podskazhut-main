@@ -40,6 +40,11 @@ figure {
   margin: 0;
 }
 
+a:focus,
+button:focus {
+  outline: none;
+}
+
 .header {
   padding-top: 10%;
 }

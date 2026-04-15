@@ -130,8 +130,7 @@ figure {
 
 .content__title {
   font-size: 30px;
-  margin-top: 7%;
-  margin-bottom: 2.5%;
+  margin: 7% 0 2.5%;
 }
 
 .content__text-block {

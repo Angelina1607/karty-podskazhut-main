@@ -118,17 +118,6 @@ button:focus {
   z-index: -1;
 }
 
-.theme_dark .header__theme-button_is-active::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 6px;
-  margin-left: -90%;
-  margin-top: 12px;
-  background-image: url("../images/pattern.svg");
-  z-index: -1;
-}
-
 .content-section {
   padding: 0 5vi;
 }
@@ -153,15 +142,6 @@ button:focus {
   font-weight: 700;
   font-size: 30px;
   display: inline-block;
-}
-
-.theme_dark .content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
-  background-color: var(--accent-color);
-  padding: 0 4px;
-  margin-right: 2px;
-  font-weight: 700;
-  font-size: 30px;
-  border: 1px solid var(--text-color);
 }
 
 .content__figure {
@@ -239,17 +219,6 @@ button:focus {
   z-index: -1;
 }
 
-.theme_dark .colored-text::after {
-  content: "";
-  position: absolute;
-  margin-left: -102%;
-  margin-top: 0.5em;
-  width: 103%;
-  height: 0.25em;
-  background-image: url("../images/pattern.svg");
-  z-index: -1;
-}
-
 .content__list {
   list-style: none;
 }
@@ -277,6 +246,48 @@ button:focus {
   margin-top: 3px;
 }
 
+.footer {
+  margin-top: 10%;
+  padding: 2.5%;
+  border-top: 1px solid var(--text-color);
+  justify-items: center;
+}
+
+.footer__copyright {
+  font-size: 18px;
+}
+
+.theme_dark .header__theme-button_is-active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  margin-left: -90%;
+  margin-top: 12px;
+  background-image: url("../images/pattern.svg");
+  z-index: -1;
+}
+
+.theme_dark .content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
+  background-color: var(--accent-color);
+  padding: 0 4px;
+  margin-right: 2px;
+  font-weight: 700;
+  font-size: 30px;
+  border: 1px solid var(--text-color);
+}
+
+.theme_dark .colored-text::after {
+  content: "";
+  position: absolute;
+  margin-left: -102%;
+  margin-top: 0.5em;
+  width: 103%;
+  height: 0.25em;
+  background-image: url("../images/pattern.svg");
+  z-index: -1;
+}
+
 .theme_dark .content__list-item::before {
   content: "";
   display: inline-block;
@@ -289,15 +300,4 @@ button:focus {
   position: absolute;
   margin-left: -25px;
   margin-top: 3px;
-}
-
-.footer {
-  margin-top: 10%;
-  padding: 2.5%;
-  border-top: 1px solid var(--text-color);
-  justify-items: center;
-}
-
-.footer__copyright {
-  font-size: 18px;
 }
